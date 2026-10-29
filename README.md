@@ -41,7 +41,7 @@ Last log entry timestamp: 2026-10-29T10:17:54.089140+03:00
 
 # Output
 Items  |  Space  |  Recent Files
-5	        24K	      Oct 8 11:06 guessing_game Oct 7 10:29 Main.class Oct 7 10:29 Main.java
+5	  24K	    Oct 8 11:06 guessing_game Oct 7 10:29 Main.class Oct 7 10:29 Main.java
 ```
 
 - backup.sh accepts a source and destination directory names, creates the backup archive from the source directory, and stores it at the destination directory
@@ -61,10 +61,18 @@ my_dir/
 
 ## Inastallation
 1. Clone the repository:
-`git clone https://github.com/High-Petrushka/automation-scripts`
+```bash
+git clone https://github.com/High-Petrushka/automation-scripts
+```
 2. Navigate to the project directory:
-`cd automation-scripts`
+```bash
+cd automation-scripts
+```
 3. Add execute privileges to the script file:
-`chmod +x [script_name]`
+```bash
+chmod +x [script_name]
+```
 4. Run the needed script:
-`./[script_name]`
+```bash
+./[script_name]
+```
